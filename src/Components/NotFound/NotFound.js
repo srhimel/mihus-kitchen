@@ -4,7 +4,7 @@ import errorImg from '../../404.svg'
 
 const NotFound = () => {
     return (
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center pb-24">
             <img className="lg:w-1/2 md:w-2/3 mx-auto" src={errorImg} alt="" />
             <p className="text-2xl font-bold">Uh-No! Nothing Here...</p>
             <Link to="/">
