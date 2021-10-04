@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://laboom.sk-web-solutions.com/images/chef1.png",
+        "name": "Anna Taylor",
+        "designation": "Head Chef"
+    },
+    {
+        "id": 2,
+        "img": "https://laboom.sk-web-solutions.com/images/chef2.png",
+        "name": "Alex Wilson",
+        "designation": "Head Chef"
+    },
+    {
+        "id": 3,
+        "img": "https://laboom.sk-web-solutions.com/images/chef3.png",
+        "name": "Anita Golden",
+        "designation": "Assistant Chef"
+    },
+    {
+        "id": 4,
+        "img": "https://laboom.sk-web-solutions.com/images/chef4.png",
+        "name": "Benderd Dimons",
+        "designation": "Assistant Chef"
+    }
+]

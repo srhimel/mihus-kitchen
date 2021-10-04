@@ -1,0 +1,39 @@
+.chef-blog{
+    border: 2px solid #F4F2ED;
+    border-radius: 18px;
+}
+.chef-blog:hover{
+    border: 2px solid #20202f;
+    border-radius: 18px;
+}
+
+.chef-inner {
+    position: relative;
+}
+.chef-member {
+    text-align: center;
+    margin-top: -100px;
+}
+.chef-member img {
+    display: inline-block !important;
+    width: auto !important;
+}
+.chef-info {
+    background: #f4f2ed;
+    padding: 14px 28px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -ms-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -ms-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+.chef-blog:hover .chef-info{
+    background:#20202f;
+    color: #fff;
+}

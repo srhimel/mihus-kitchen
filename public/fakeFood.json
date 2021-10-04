@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://laboom.sk-web-solutions.com/images/img56.png",
+        "service": "Desi Cooking",
+        "fee": 5000,
+        "duration": 6
+    },
+    {
+        "id": 2,
+        "img": "https://laboom.sk-web-solutions.com/images/img57.png",
+        "service": "Steak & Meat",
+        "fee": 4000,
+        "duration": 4
+    },
+    {
+        "id": 3,
+        "img": "https://laboom.sk-web-solutions.com/images/img58.png",
+        "service": "Pasta Training",
+        "fee": 3000,
+        "duration": 4
+    },
+    {
+        "id": 4,
+        "img": "https://laboom.sk-web-solutions.com/images/img59.png",
+        "service": "Vegetable Training",
+        "fee": 7000,
+        "duration": 6
+    },
+    {
+        "id": 5,
+        "img": "https://laboom.sk-web-solutions.com/images/img60.png",
+        "service": "Maxicun Cooking",
+        "fee": 8000,
+        "duration": 9
+    },
+    {
+        "id": 6,
+        "img": "https://laboom.sk-web-solutions.com/images/img61.png",
+        "service": "Chinese Cooking",
+        "fee": 3000,
+        "duration": 12
+    },
+    {
+        "id": 7,
+        "img": "https://laboom.sk-web-solutions.com/images/img62.png",
+        "service": "Thai Cooking",
+        "fee": 2000,
+        "duration": 3
+    },
+    {
+        "id": 8,
+        "img": "https://laboom.sk-web-solutions.com/images/img63.png",
+        "service": "Fresh Cooking",
+        "fee": 4000,
+        "duration": 6
+    }
+]
