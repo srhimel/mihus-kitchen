@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
     return (
@@ -11,7 +12,10 @@ const AboutSection = () => {
                 <div>
                     <p>Welcome. This is La Boom. Elegant & sophisticated restaurant template. Royal plate offers different home page layouts with smart and unique design, showcasing beautifully designed elements every restaurant website should have. Smooth animations, fast loading and engaging user experience are just some of , the features this template offers. So, give it a try and dive into a world of La Boom restaurant websites.</p>
                     <img src="https://laboom.sk-web-solutions.com/images/signature.png" alt="" />
-                    <button className="btn btn-natural px-8 mt-4 tracking-widest">Learn more</button>
+                    <Link to="/about-us">
+                        <button className="btn btn-natural px-8 mt-4 tracking-widest">Learn more</button>
+                    </Link>
+
                 </div>
                 <div>
                     <img src="https://laboom.sk-web-solutions.com/images/img2.png" alt="" />
