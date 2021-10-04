@@ -23,7 +23,6 @@ const Home = () => {
     }, [])
     return (
         <div>
-            {console.log(services)}
             <Slider />
             <div className="container m-auto px-4">
                 <AboutSection />
