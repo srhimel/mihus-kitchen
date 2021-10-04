@@ -5,7 +5,7 @@ const Chef = (props) => {
     const { img, name, designation } = props.chef;
     return (
         <div>
-            <div className="chef-blog" style={{ height: '333px' }}>
+            <div className="chef-blog md:mt-0 mt-20" style={{ height: '333px' }}>
                 <div className="chef-inner">
                     <div className="chef-member" style={{ height: '350px' }}>
                         <img src={img} alt="" />
