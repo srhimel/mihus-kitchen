@@ -3,6 +3,7 @@ import AboutSection from '../AboutSection/AboutSection';
 import Chef from '../Chef/Chef';
 
 const AboutPage = () => {
+    //fetch chef data
     const [chefs, setChefs] = useState([]);
     useEffect(() => {
         fetch('./fakeChef.json')
@@ -10,12 +11,13 @@ const AboutPage = () => {
             .then(data => setChefs(data))
     }, [])
     return (
-        <div className="bg-white">
-            <div className="container m-auto px-4">
+        <main className="bg-white">
+            {/* About Section  */}
+            <section className="container m-auto px-4">
                 <AboutSection />
-
-            </div>
-            <div className="chef py-24 bg-base-100">
+            </section>
+            {/* Chef Section  */}
+            <section className="chef py-24 bg-base-100">
                 <div className="container m-auto px-4">
                     <div className="text-center">
                         <h2 className="text-4xl mb-3 font-semibold">Our Awesome Chef</h2>
@@ -28,8 +30,8 @@ const AboutPage = () => {
                     </div>
                 </div>
 
-            </div>
-        </div>
+            </section>
+        </main>
     );
 };
 

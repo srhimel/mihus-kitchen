@@ -7,9 +7,11 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
 import ServicePage from "./Components/ServicePage/ServicePage";
+// Context API to load service options on all page 
 export const ServiceContext = createContext([]);
 
 function App() {
+  // fetch service
   const [services, setServices] = useState([]);
   useEffect(() => {
     fetch('./fakeFood.json')

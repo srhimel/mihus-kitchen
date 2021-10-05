@@ -3,7 +3,7 @@ import React from 'react';
 const Service = (props) => {
     const { img, service, fee, duration } = props.service;
     return (
-        <div className="text-center border p-5 rounded-2xl shadow-lg">
+        <article className="text-center border p-5 rounded-2xl shadow-lg">
             <img className="inline-block w-full" src={img} alt="" />
             <p className="text-xl mt-3">{service}</p>
             <div className="flex justify-between mt-4">
@@ -20,7 +20,7 @@ const Service = (props) => {
                         {duration}/Months</span>
                 </div>
             </div>
-        </div>
+        </article>
     );
 };
 

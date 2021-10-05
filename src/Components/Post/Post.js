@@ -3,10 +3,10 @@ import React from 'react';
 const Post = (props) => {
     const { img, postTitle, postDescription, admin, comments, published } = props.post;
     return (
-        <div className="bg-white p-4 rounded-2xl">
+        <article className="bg-white p-4 rounded-2xl">
             <div className="post-img relative">
                 <img src={img} alt="" className="w-full" />
-                <p className="absolute top-3 right-3 text-2xl font-bold w-20 rounded-2xl text-center bg-black py-2 px-3 text-white">{published}</p>
+                <p className="absolute top-3 right-3 text-lg font-bold w-20 rounded-2xl text-center bg-black py-2 px-3 text-white">{published}</p>
             </div>
             <div className="post-description">
                 <div className="flex gap-20 mt-4">
@@ -21,10 +21,10 @@ const Post = (props) => {
                         {comments + ' Comments'}</p>
                 </div>
                 <p className="text-xl font-medium mt-2 mb-2">{postTitle}</p>
-                <p>{postDescription.slice(0, 200)}...</p>
+                <p>{postDescription.slice(0, 200)}... <span className="text-primary-focus font-medium cursor-pointer">Read More </span></p>
 
             </div>
-        </div>
+        </article>
     );
 };
 

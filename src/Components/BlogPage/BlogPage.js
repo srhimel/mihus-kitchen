@@ -10,7 +10,8 @@ const BlogPage = () => {
             .then(data => setPosts(data))
     }, [])
     return (
-        <div className="py-20">
+        // Load all Blogs 
+        <section className="py-20">
             <div className="container m-auto px-4">
                 <div className="grid  md:grid-cols-3 gap-8">
                     {
@@ -18,7 +19,7 @@ const BlogPage = () => {
                     }
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

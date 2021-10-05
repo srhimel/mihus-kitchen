@@ -8,7 +8,9 @@ import Chef from '../Chef/Chef';
 import Post from '../Post/Post';
 
 const Home = () => {
+    //service from Context API
     const services = useContext(ServiceContext);
+    //Chef & Posts Fetch 
     const [chefs, setChefs] = useState([]);
     const [posts, setPosts] = useState([]);
     useEffect(() => {
@@ -21,16 +23,20 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setPosts(data))
     }, [])
+
     return (
-        <div>
+        <main>
+            {/* Load Slider  */}
             <Slider />
-            <div className="container m-auto px-4">
+            {/* About Section  */}
+            <section className="about container m-auto px-4">
                 <AboutSection />
-            </div>
-            <div className="services text-white py-24">
+            </section>
+            {/* Service Section  */}
+            <section className="services text-white py-24">
                 <div className="container m-auto px-4">
                     <div className="text-center">
-                        <h2 className="text-4xl mb-3 font-semibold">Explore Our Services</h2>
+                        <h2 className="text-4xl mb-3 font-semibold">Explore Our Cooking Class</h2>
                         <p>Learn how to cook your favorite menu </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8 mt-10">
@@ -39,8 +45,9 @@ const Home = () => {
                         }
                     </div>
                 </div>
-            </div>
-            <div className="chef py-24 bg-white ">
+            </section>
+            {/* Chef Section  */}
+            <section className="chef py-24 bg-white ">
                 <div className="container m-auto px-4">
                     <div className="text-center">
                         <h2 className="text-4xl mb-3 font-semibold">Our Awesome Chef</h2>
@@ -52,8 +59,9 @@ const Home = () => {
                         }
                     </div>
                 </div>
-            </div>
-            <div className="chef py-24">
+            </section>
+            {/* Blog Section  */}
+            <section className="blog py-24">
                 <div className="container m-auto px-4">
                     <div className="text-center">
                         <h2 className="text-4xl mb-3 font-semibold">Feature Blog</h2>
@@ -65,8 +73,8 @@ const Home = () => {
                         }
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
     );
 };
 
