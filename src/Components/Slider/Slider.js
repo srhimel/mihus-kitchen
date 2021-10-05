@@ -13,7 +13,7 @@ const Slider = () => {
                 effectChange={2.0}
                 text="Great Cooking Class For You" /></p>
             <p className="md:w-1/2 mt-6">It's all about FOOD.Check out my recipes and let me know what you think about it. A healthy and easy way for foodies out there and I hope you people have Fun! </p>
-            <div className="flex gap-6">
+            <div className="flex md:gap-6 md:flex-row flex-col">
                 <Link to="/services">
                     <button className="btn btn-success mt-8 tracking-widest px-8 ">Explore Cooking</button>
                 </Link>
