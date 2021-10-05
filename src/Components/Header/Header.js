@@ -6,7 +6,7 @@ const Header = () => {
         color: "#42B2B8"
     }
     //Added theme changing option
-    const [theme, setTheme] = useState(true);
+    const [theme, setTheme] = useState(false);
     const handleTheme = () => {
         theme ? document.querySelector('html').setAttribute('data-theme', 'cupcake') : document.querySelector('html').setAttribute('data-theme', 'retro');
         setTheme(!theme);
